@@ -1,2 +1,6 @@
 # mutexis
-A Low overhead lock-sensitive appication performance analysis tool
+A Low overhead Pin based lock-sensitive appication performance analysis tool
+
+Usage:
+pin -probe -t mutexis.so -- <Application to be analyzed>
+
